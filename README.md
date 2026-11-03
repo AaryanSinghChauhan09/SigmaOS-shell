@@ -1,6 +1,6 @@
 # SigmaOS-shell
 
-SigmaOS component inspired by Arch Linux and Debian architecture.
+SigmaOS critical system component inspired by Arch Linux and Debian architecture.
 
 ## Overview
 
@@ -9,10 +9,42 @@ following the modular design principles of Arch Linux and the stability focus of
 
 ## Features
 
-- Modular architecture
-- Minimal dependencies
-- Well-documented APIs
-- Comprehensive testing
+- Asynchronous I/O with Tokio
+- Comprehensive error handling with anyhow
+- Structured logging
+- Configuration management
+- Status monitoring
+- CLI interface with clap
+
+## Installation
+
+```bash
+cargo build --release
+cargo install --path .
+```
+
+## Usage
+
+```bash
+# Initialize the component
+shell init
+
+# Start the component
+shell start
+
+# Stop the component
+shell stop
+
+# Check status
+shell status
+
+# Run the component
+shell run
+```
+
+## Configuration
+
+The component can be configured via environment variables or configuration files.
 
 ## Building
 
