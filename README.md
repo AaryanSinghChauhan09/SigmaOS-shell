@@ -1,14 +1,40 @@
 # SigmaOS-shell
 
-Shell component for SigmaOS.
+SigmaOS component inspired by Arch Linux and Debian architecture.
 
-## Development
+## Overview
+
+This component provides essential functionality for the SigmaOS operating system,
+following the modular design principles of Arch Linux and the stability focus of Debian.
+
+## Features
+
+- Modular architecture
+- Minimal dependencies
+- Well-documented APIs
+- Comprehensive testing
+
+## Building
 
 ```bash
-cargo check
+cargo build --release
+```
+
+## Testing
+
+```bash
 cargo test
 ```
 
-Shell behavior should remain deterministic, composable, and explicit about
-quoting, environment mutation, and error handling. System-wide integration is
-tracked in the central [SigmaOS repository](https://github.com/AaryanSinghChauhan09/SigmaOS).
+## License
+
+MIT License - See LICENSE file for details.
+
+## Contributing
+
+See CONTRIBUTING.md for guidelines.
+
+## Links
+
+- Repository: https://github.com/AaryanSinghChauhan09/SigmaOS-shell
+- SigmaOS: https://github.com/AaryanSinghChauhan09
