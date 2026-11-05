@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-shell"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "Unified Wayland desktop shell process coordinating status bar, app launcher, and notifications"
+upstream = ["https://github.com/omacom/quickshell"]
+
+[contract]
+provides = ["desktop-shell-process", "wayland-panel", "app-launcher-widget"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
