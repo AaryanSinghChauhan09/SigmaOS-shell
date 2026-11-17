@@ -3,12 +3,12 @@ name = "SigmaOS-shell"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Unified Wayland desktop shell process coordinating status bar, app launcher, and notifications"
+description = "Shell component for SigmaOS"
 upstream = ["https://github.com/omacom/quickshell"]
 
 [contract]
 provides = ["desktop-shell-process", "wayland-panel", "app-launcher-widget"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
