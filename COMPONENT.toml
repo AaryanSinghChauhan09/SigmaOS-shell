@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-shell"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "Shell component for SigmaOS"
+description = "Unified desktop shell process coordinating status bar, app launcher, and notification center"
 upstream = ["https://github.com/omacom/quickshell"]
 
 [contract]
-provides = ["desktop-shell-process", "wayland-panel", "app-launcher-widget"]
+provides = ["desktop-shell-process", "wayland-panel", "app-launcher-widget", "notification-center"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
-test_evidence = "Compiles and passes AAA unit tests"
+status = "Implemented"
+test_evidence = "Compiles and passes 11 unit and integration tests"
 next_milestone = "Hardware and runtime integration"
