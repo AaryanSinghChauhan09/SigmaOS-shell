@@ -7,6 +7,9 @@
 
 #![forbid(unsafe_code)]
 
+/// Shell configuration management: modules, templates, hot-reload.
+pub mod sigmaquickshell;
+
 use std::{fmt, collections::VecDeque};
 
 // ── Error ─────────────────────────────────────────────────────────────────────
