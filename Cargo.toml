@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_shell"
+version = "0.1.0"
+edition = "2021"
+description = "Unified Wayland desktop shell process coordinating status bar, app launcher, and notifications"
+
+[lib]
+name = "sigmaos_shell"
+path = "src/lib.rs"

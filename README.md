@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SigmaOS Shell
 
 The SigmaOS desktop shell — a Quickshell/QML layer providing the bar,
@@ -18,6 +19,10 @@ qml/
   Notifications/       notification center
 config/
   shell.toml           default shell configuration
+src/
+  lib.rs               Rust component API
+  sigmaquickshell.rs   Quickshell IPC bindings (bar/launcher/notifications)
+wiki/                  component wiki pages
 ```
 
 ## Data flow
@@ -41,3 +46,21 @@ config/
 - Config via TOML, not hardcoded (declarative config)
 - Loose coupling: widgets expose `required property var config`
 - Fails safe: missing config falls back to defaults
+=======
+# SigmaOS-shell
+
+Shell component for SigmaOS
+
+- **Category:** Developer Tools
+- **Engine:** shell_config
+- **Language:** Rust
+
+## Build & Test
+
+```sh
+cargo build
+cargo test
+```
+
+Part of the SigmaOS multi-repository component ecosystem.
+>>>>>>> origin/main

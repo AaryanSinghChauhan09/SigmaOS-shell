@@ -1,5 +1,16 @@
 [component]
-name = "sigmaos-shell"
-version = "0.1.0"
-description = "SigmaOS desktop shell — Quickshell-based bar, dock, launcher, notifications"
+name = "SigmaOS-shell"
+tier = 3
+stability = "beta"
+language = "rust+qml"
+description = "SigmaOS desktop shell — Quickshell/QML bar, dock, launcher, and notification center with Rust IPC bindings"
 license = "GPL-3.0-or-later"
+
+[contract]
+provides = ["desktop-shell-process", "wayland-panel", "app-launcher-widget", "notification-center", "qml-shell"]
+depends_on = ["sigmaos-shell-config", "sigmaos-hyprland", "sigmaos-system"]
+
+[maturity]
+status = "Implemented"
+test_evidence = "Rust bindings pass 11 unit and integration tests; QML layer follows shell-config schema"
+next_milestone = "Hardware and runtime integration"
