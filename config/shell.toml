@@ -1,0 +1,31 @@
+# SigmaOS Shell — default configuration
+# Applied by sigmaos-shell-config; consumed by Quickshell at runtime.
+
+[bar]
+position = "top"
+height = 32
+autohide = false
+modules = ["workspaces", "clock", "system-tray", "battery", "network"]
+
+[dock]
+position = "bottom"
+iconSize = 48
+autohide = false
+pinned = ["firefox", "terminal", "files"]
+
+[launcher]
+provider = "fuzzel"
+maxResults = 50
+fuzzy = true
+
+[theme]
+name = "sigmaos-dark"
+accent = "#7aa2f7"
+background = "#1a1b26"
+foreground = "#c0caf5"
+font = "monospace 11"
+
+[keybindings]
+launcher = "SUPER+space"
+terminal = "SUPER+Return"
+settings = "SUPER+comma"

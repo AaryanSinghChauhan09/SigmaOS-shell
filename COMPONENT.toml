@@ -1,0 +1,5 @@
+[component]
+name = "sigmaos-shell"
+version = "0.1.0"
+description = "SigmaOS desktop shell — Quickshell-based bar, dock, launcher, notifications"
+license = "GPL-3.0-or-later"

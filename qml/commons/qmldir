@@ -1,0 +1,4 @@
+module qs.Commons
+
+# Shared singleton stubs for shell internals.
+# Theme and AppIndex are registered at the top-level qs module.

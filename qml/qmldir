@@ -1,0 +1,10 @@
+module qs
+
+Bar 1.0 Bar.qml
+Dock 1.0 Dock.qml
+Launcher 1.0 Launcher.qml
+ConfigStore 1.0 ConfigStore.qml
+Theme 1.0 Theme.qml
+AppIndex 1.0 AppIndex.qml
+
+NotificationCenter 1.0 Notifications/NotificationCenter.qml
