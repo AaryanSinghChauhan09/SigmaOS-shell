@@ -8,7 +8,7 @@ license = "GPL-3.0-or-later"
 
 [contract]
 provides = ["desktop-shell-process", "wayland-panel", "app-launcher-widget", "notification-center", "qml-shell"]
-depends_on = ["sigmaos-shell-config", "sigmaos-hyprland", "sigmaos-system"]
+depends_on = ["sigmaos-shell-config", "sigmaos-quickshell", "sigmaos-notification-center", "sigmaos-live-media"]
 
 [maturity]
 status = "Implemented"
