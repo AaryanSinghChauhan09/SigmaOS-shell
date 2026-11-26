@@ -3,7 +3,6 @@
 //! Inspired by Quickshell (Omarchy Linux), this module provides shell configuration
 //! management with templating, module loading, and hot-reload capabilities.
 
-
 extern crate alloc;
 use alloc::collections::BTreeMap;
 use alloc::string::String;
