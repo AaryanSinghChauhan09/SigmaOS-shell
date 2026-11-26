@@ -268,11 +268,7 @@ impl SigmaQuickshell {
 
     /// Reload configuration
     pub fn reload_config(&mut self, config_id: &str) -> bool {
-        if self.configs.contains_key(config_id) {
-            true
-        } else {
-            false
-        }
+        self.configs.contains_key(config_id)
     }
 
     /// Get module count
