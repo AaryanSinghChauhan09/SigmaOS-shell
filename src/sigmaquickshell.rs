@@ -1,6 +1,6 @@
 //! SigmaQuickshell - Shell Configuration Management
 //!
-//! Inspired by Quickshell (Omarchy Linux), this module provides shell configuration
+//! SigmaQuickshell — SigmaOS shell configuration management module providing shell configuration
 //! management with templating, module loading, and hot-reload capabilities.
 
 extern crate alloc;
